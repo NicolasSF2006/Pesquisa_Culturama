@@ -119,14 +119,35 @@
                     <option value="Rock">
                     <option value="Pop">
                     <option value="Samba">
-                    <option value="Sertanejo">  
+                    <option value="Sertanejo">
                 </datalist>
                 <br>
                 <label for="favoriteColor">Cor Favorita:</label>
                 <input id="favoriteColor" type="color" name="userFavoriteColor">
             </fieldset>
 
+            <fieldset>
+                <legend>Satisfação</legend>
+                <p>Selecione sua satisfação com nosso serviço:</p>
+                <br>
+                <input type="radio" id="satisfactionVeryGood" name="userSatisfaction">
+                <label for="satisfactionVeryGood">Ótima</label>
+                <br>
+                <input type="radio" id="satisfactionGood" name="userSatisfaction">
+                <label for="satisfactionGood">Boa</label>
+                <br>
+                <input type="radio" id="satisfactionRegular" name="userSatisfaction">
+                <label for="satisfactionRegular">Regular</label>
+                <br>
+                <input type="radio" id="satisfactionBad" name="userSatisfaction">
+                <label for="satisfactionBad">Ruim</label>
+                <br>
+                <label for="comments">Fale mais sobre sua experiência:</label>
+                <textarea id="comments" name="userComments" rows="4" cols="50" placeholder="Digite aqui sua experiência..."></textarea>
+            </fieldset>
+
             <button type="submit">Enviar</button>
+
         </form>
     </section>
 
