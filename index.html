@@ -143,7 +143,17 @@
                 <label for="satisfactionBad">Ruim</label>
                 <br>
                 <label for="comments">Fale mais sobre sua experiência:</label>
-                <textarea id="comments" name="userComments" rows="4" cols="50" placeholder="Digite aqui sua experiência..."></textarea>
+                <textarea id="comments" name="userComments" rows="4" cols="50"
+                    placeholder="Digite aqui sua experiência..."></textarea>
+            </fieldset>
+
+            <fieldset>
+                <legend>Confirmações</legend>
+                <input type="checkbox" id="userLgpdTerm" name="userLgpd" value="accepted" required>
+                <label for="userLgpdTerm">Aceito participar da pesquisa</label>
+                <br>
+                <input type="checkbox" id="getResult" name="userGetResult" value="accepted">
+                <label for="getResult">Desejo receber o resultado por email</label>
             </fieldset>
 
             <button type="submit">Enviar</button>
