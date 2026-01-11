@@ -30,7 +30,8 @@
                 <input id="email" type="email" name="userEmail" placeholder="Digite seu email" required>
                 <br>
                 <label for="numberPhone">Número de telefone</label>
-                <input id="numberPhone" type="tel" name="userNumberPhone" placeholder="11111111111" pattern="[0-9] {11}">
+                <input id="numberPhone" type="tel" name="userNumberPhone" placeholder="11111111111"
+                    pattern="[0-9] {11}">
                 <br>
                 <label for="userImage">Upload de imagem</label>
                 <input type="file" name="userImage" accept="image/*">
@@ -110,8 +111,18 @@
                 <br>
                 <input id="linkedin" type="checkbox" name="socialMedia" value="linkedin">
                 <label for="linkedin">LinkedIn</label>
+                <br>
+
+                <label for="musicStyle">Estilo Musical:</label>
+                <input id="musicStyle" type="text" name="userMusicStyle" list="styleTypes">
+                <datalist id="styleTypes">
+                    <option value="Rock">
+                    <option value="Pop">
+                    <option value="Samba">
+                    <option value="Sertanejo">  
+                </datalist>
             </fieldset>
-            
+
             <button type="submit">Enviar</button>
         </form>
     </section>
